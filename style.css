@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+
+}
+
+header {
+    background-color: #003e7e;
+    height: 40px;
+    
+}
+.letter {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 225px;
+    width: 35px;
+}
+img {
+    width: 98px;
+    height: 30px;
+   margin-left: 20px;
+   margin-top: 5px;
+}
+h1 {
+    
+    position: relative;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 18px;
+    color: #003e7e;
+    font-family: 'DIN-Regular', cursive;
+    font-weight: 200;
+}
+.formulario {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 60px;
+    background-color: #fff;
+    
+
+}
+
+.person {
+    position: absolute;
+    color: #003e7e;
+    display: inline-block;
+    margin-left: -40px;
+    font-size: 32px;
+}
+
+.eyes {
+    position: absolute;
+    font-size: 25px;
+    color: #003e7e;
+    margin-left: -35px;
+    padding: 5px;
+}
+
+.candado {
+    position: absolute;
+    color: #003e7e;
+    display: inline-block;
+    margin-left: -40px;
+    font-size: 32px;
+}
+
+form .username{
+    
+    height: 50px;
+    
+
+}
+
+.input {
+
+    border: 1px solid #bbb;
+    width: 310px;
+    height: 35px;
+    border-left: 3px solid #003e7e;
+    font-size: 16px;
+    font-family: 'DIN-Regular', cursive;
+    padding: 0 14px;
+}
+.iniciar {
+    height: 37px;
+    font-size: 15px;
+    background-color: #003e7e;
+    color: #fff;
+    font-family: 'DIN-Regular', cursive;
+    margin-left: 266px;
+    border: 1px solid #003e7e;
+}
+
+.desc {
+    margin-right: -28px;
+    width: 370px;
+    height: 325px;
+    margin-top: 45px;
+}
